@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex6 elmaghoussi</title>
+</head>
+<body style="background-color: bisque; text-align: center;">
+
+
+    <h1>VOICI LE FORMULAIRE</h1>
+     <!--Debut formulaire-->
+
+
+    <fieldset style="border: 2px solid black; border-radius: 10px; background-color: #f4f4f4; height: 380px; width: 25%; margin: 0 auto;">
+        <table style="width: 100%;">
+            <form method="post">
+
+             <!-- radio marriage -->
+             
+            <tr>
+                <td style="text-align: right;">Etes-vous marie(e):</td>
+                <td style="text-align: left;">
+                    <input type="radio" name="marriage" id="radio1">
+                    <label for="radio1">Oui</label>
+                    <input type="radio" name="marriage" id="radio2" checked>
+                    <label for="radio2">Non</label>
+                </td>
+            </tr>
+
+            <!-- checkboxes -->
+
+            <tr>
+                <td style="text-align: right;">Cases à cocher:</td>
+                <td style="text-align: left;">
+                    <input type="checkbox" name="checkbox1" id="checkbox1">
+                    <label for="checkbox1">1</label>
+                    <input type="checkbox" name="checkbox2" id="checkbox2" checked>
+                    <label for="checkbox2">2</label>
+                    <input type="checkbox" name="checkbox3" id="checkbox3">
+                    <label for="checkbox3">3</label>
+                </td>
+            </tr>
+
+             <!-- labels dyal champs and pass -->
+
+            <tr>
+                <td style="text-align: right;">Champs de saisie:</td>
+                <td style="text-align: left;">
+                    <input type="text" >
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Mot de passe:</td>
+                <td style="text-align: left;">
+                    <input type="password" required>
+                </td>
+            </tr>
+
+             <!-- boite de saisie -->
+
+            <tr>
+                <td style="text-align: right;">Boite de saisie:</td>
+                <td style="text-align: left;">
+                    <textarea rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+             <!-- combo box -->
+
+            <tr>
+                <td style="text-align: right;">Combo:</td>
+                <td style="text-align: left;">
+                    <select  required>
+                        <option>Combo1</option>
+                        <option>Combo2</option>
+                        <option>Combo3</option>
+                    </select>
+                </td>
+            </tr>
+
+             <!-- liste choix simple -->
+
+            <tr>
+                <td style="text-align: right;">Liste à choix simple:</td>
+                <td style="text-align: left;">
+                    <select>
+                        <option>Liste 1</option>
+                        <option>Liste 2</option>
+                        <option>Liste 3</option>
+                    </select>
+                </td>
+            </tr>
+
+             <!-- liste choix multiple -->
+
+            <tr>
+                <td style="text-align: right;">Liste choix multiple:</td>
+                <td style="text-align: left;">
+                    <select multiple>
+                        <option>Liste 1</option>
+                        <option>Liste 2</option>
+                        <option>Liste 4</option>
+                        <option>Liste 5</option>
+                        <option>Liste 6</option>
+                    </select>
+                </td>
+            </tr>
+
+             <!-- pays -->
+
+            <tr>
+                <td style="text-align: right;">Pays:</td>
+                <td style="text-align: left;">
+                    <input type="text" list="paysList" autocomplete="on" autofocus="autofocus">
+                    <datalist id="paysList">
+                        <option value="Morocco"></option>
+                        <option value="France"></option>
+                        <option value="Germany"></option>
+                        <option value="Spain"></option>
+                        <option value="Italy"></option>
+                        <option value="United States"></option>
+                    </datalist>
+                </td>
+            </tr>
+        </table>
+
+         <!-- buttons -->
+
+        <div>
+            <input type="reset" value="Effacer">
+            <input type="submit" value="Envoyer">
+            <input type="button" value="Rétablir">
+        </div>
+
+    </form>
+    </fieldset>
+
+
+    <!--fin formulaire-->
+</body>
+</html>

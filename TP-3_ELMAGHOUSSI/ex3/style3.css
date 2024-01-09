@@ -1,0 +1,21 @@
+
+/*propriete body*/
+
+.body{text-align: center; background-color: #F0CB6D; font-family:'Times New Roman', Times, serif;}
+
+/*propriete image 1*/
+
+.image {
+    width: 300px;
+    height: 160px;
+    display: inline;
+    margin: 30px; 
+}
+
+/*propriete image 2*/
+
+#imb{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+

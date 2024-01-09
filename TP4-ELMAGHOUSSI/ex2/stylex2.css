@@ -1,0 +1,56 @@
+/* BODY */
+.body
+{
+    border: solid black;
+    border-radius: 3px;
+}
+
+/* HEADER */
+.header
+{
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(63, 186, 162);
+}
+
+/* NAV */
+.nav
+{
+    height: 35px;
+    width: 100%;
+    text-align: left;
+    background-color: purple;
+}
+
+/* SECTION */
+section {
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+
+}
+
+/* customise A.B.C.D */
+#A, #B, #C, #D 
+{
+    width: 720px;
+    height: 250px;
+    margin: 0;
+}
+
+#A {background-color: rgb(63, 186, 162); margin-top: 15px;}
+#B {background-color: rgb(206, 151, 13); margin-top: 15px;}
+#C {background-color: rgb(197, 149, 198);}
+#D {background-color: blue;}
+
+/* FOOTER */
+.footer
+{
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(63, 186, 162);
+    margin-top: 15px;
+
+}

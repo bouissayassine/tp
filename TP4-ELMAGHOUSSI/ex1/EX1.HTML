@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>ex1.ELMAGHOUSSI</title>
+</head>
+<body>
+    <img id="logo" src="logo.png" alt="Logo">
+    <div class="background">
+        <form method="post">
+            <fieldset class="form">
+                <!-- legend -->
+                <legend class="legend">Inscription</legend>
+                <!-- text  -->
+                <div class="text">
+                    <label for="nom">Nom</label><br>
+                    <label for="prenom">Prenom</label><br>
+                    <label for="email">Email</label><br>
+                    <label for="motDePasse">Mot de passe</label><br>
+                    <label for="confirmation">Confirmation</label><br>
+                </div>
+                <!-- input  -->
+                <div class="input">
+                    <input type="text" placeholder="Nom"><br>
+                    <input type="text" placeholder="Prenom"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <input type="password" placeholder="Mot de passe" required><br>
+                    <input type="password" placeholder="Confirmation " required>
+                    <div class="reset">
+                        <input type="submit" value="S'inscrire">
+                    </div>
+                </div>
+            </fieldset>
+            <!-- audio -->
+            <div class="audio">
+                <audio controls width="500" loop>
+                    <source src="kara.mp3" type="audio/mp3">
+                    <source src="kara.ogg" type="audio/ogg">
+                    If you can't play the audio, please check your<br>
+                    browser settings or use a different browser.
+                </audio>
+            </div>
+             <!-- video -->
+             <div class="video">
+                <video controls width="430" height="250" loop autoplay poster="gojo.png">
+                    <source src="gojo.mp4" type="video/mp4">
+                    <source src="gojo.ogg" type="video/ogg">
+                    <source src="gojo.webm" type="video/webm">
+                    If you can't play the video, please check your<br>
+                    browser settings or use a different browser.
+                </video>
+             </div>
+             <!-- image superposee -->
+             <div class="superimg">
+                <img id="img1" src="logo.png" alt="html">
+                <img id="img2" src="css.png" alt="css">
+                <img id="img3" src="js.png" alt="js">
+            </div>
+            
+
+        </form>
+    </div>
+</body>
+</html>
